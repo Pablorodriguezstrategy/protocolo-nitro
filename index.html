@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -278,6 +278,24 @@
         .panic-btn span { position: relative; z-index: 2; }
         .panic-sub { font-size: 0.75rem; font-weight: 400; opacity: 0.9; text-transform: none; margin-top: 5px; display: block; }
 
+        /* LINK DESCARGA (NUEVO) */
+        .download-link {
+            display: block;
+            text-align: center;
+            margin-top: 40px;
+            color: #666;
+            text-decoration: none;
+            font-size: 0.8rem;
+            border: 1px solid #333;
+            padding: 15px;
+            border-radius: 6px;
+            transition: all 0.2s;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .download-link:hover { border-color: var(--accent); color: #fff; background: rgba(229, 9, 20, 0.05); }
+
+
         /* OVERLAY DE RESPIRACIÓN */
         #breath-overlay {
             position: fixed;
@@ -418,6 +436,11 @@
         <span>🚨 ESTOY NERVIOSO</span>
         <span class="panic-sub">Activar Regulador de Ansiedad (4-7-8)</span>
     </button>
+
+    <!-- DESCARGA -->
+    <a href="protocolo_nitro.pdf" download="protocolo_nitro.pdf" class="download-link">
+        📂 DESCARGAR MANUAL COMPLETO (PDF)
+    </a>
 
     <footer>
         SISTEMA CLANDESTINO v3.0<br>Uso personal y confidencial.
